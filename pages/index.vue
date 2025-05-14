@@ -2,7 +2,7 @@
   <section class="p-8 md:p-16 flex flex-col items-center text-center space-y-6 min-h-screen bg-gradient-to-b from-blue-900 to-black text-white">
     <!-- Avatar -->
     <img
-      src="D:/KULIAH/MAGANG/portofolio/public/images/81cca798-5829-402e-9ce2-8d38e594dae4.jpg"
+      src="/images/81cca798-5829-402e-9ce2-8d38e594dae4.jpg"
       alt="Your Avatar"
       class="w-48 h-48 shadow-lg rounded-full object-cover mb-6"
     />

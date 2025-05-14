@@ -6,7 +6,7 @@
       <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
         <!-- Foto -->
         <img
-          src="D:/KULIAH/MAGANG/portofolio/public/images/81cca798-5829-402e-9ce2-8d38e594dae4.jpg"
+          src="/images/81cca798-5829-402e-9ce2-8d38e594dae4.jpg"
           alt="Foto Profil"
           class="w-40 h-40 object-cover rounded-full border-4 border-blue-400 shadow-lg"
         />
