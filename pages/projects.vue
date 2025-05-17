@@ -55,19 +55,25 @@ const projects = [
       'Proyek pembelajaran mesin untuk memprediksi jumlah penumpang pesawat di beberapa bandara menggunakan data resmi dari BPS (Badan Pusat Statistik) Indonesia. Dibuat dengan Flask untuk aplikasi web dan scikit-learn, XGBoost untuk pelatihan model.',
     image: '/images/ml.png',
     github: 'https://github.com/username/project-penumpang',
-    demo: 'https://demo-site.com/project-penumpang'
   },
   {
     id: 2,
+    title: '"SINVENTOR" Sistem Inventaris Laboratorium',
+    description:
+      'PBL (Project Based Learning) Sistem Inventaris Laboratorium dengan menggunakan FrameWork Laravel.',
+    image: '/images/sinventor.jpg',
+    github: 'https://github.com/adityaAhmadalfarison/invenn',
+  },
+  {
+    id: 3,
     title: '"YUSHARIK" Aplikasi Donasi Masjid',
     description:
       'Proyek pembelajaran untuk donasi ke masjid sekitar kota Padang. Dibuat menggunakan Vue.js dan dengan backend JSON.',
     image: '/images/yusharik.jpeg',
     github: 'https://github.com/adityaAhmadalfarison/yusharik',
-    demo: 'https://demo-site.com/yusharik'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Re-Design Gojek',
     description: 'Ujian pembelajaran mendesain ulang aplikasi Gojek. Design UI/UX menggunakan Figma.',
     image: '/images/Figma Gojek.png',
@@ -75,12 +81,12 @@ const projects = [
     demo: 'https://figma-demo.com/gojek-redesign'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Re-Desain SPADATI',
     description: 'Proyek tugas besar mendesain ulang Sistem Pembelajaran Daring Teknologi Informasi.',
     image: '/images/Figma SPADATI.png',
     figma: 'https://www.figma.com/design/GcI4HTHyOF0s5ojcF6RasM/Spadati?node-id=400-2593&t=0em3luKtD1zF3WMi-0',
     demo: 'https://www.figma.com/proto/GcI4HTHyOF0s5ojcF6RasM/Spadati?node-id=1-4&t=0em3luKtD1zF3WMi-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=400%3A2593&show-proto-sidebar=1'
-  }
+  },
 ]
 </script>
