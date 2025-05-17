@@ -3,21 +3,22 @@
     <h2 class="text-4xl font-bold text-center mb-8 text-blue-300">Sertifikat Saya</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div
+      <a
         v-for="(cert, index) in certificates"
         :key="index"
-        class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:bg-blue-800 transition duration-300"
+        :href="cert.pdfUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:bg-blue-800 transition duration-300 block"
       >
-        <img :src="cert.image" :alt="cert.title" class="w-full h-48 object-cover rounded-lg mb-4" />
+        <img
+          :src="cert.image"
+          :alt="cert.title"
+          class="w-full h-48 object-cover rounded-lg mb-4"
+        />
         <h3 class="text-2xl font-semibold text-blue-400">{{ cert.title }}</h3>
         <p class="text-gray-300 mt-2">{{ cert.description }}</p>
-        <a
-          v-if="cert.link"
-          :href="cert.link"
-          target="_blank"
-          class="text-blue-300 mt-4 inline-block hover:underline"
-        >Lihat Sertifikat</a>
-      </div>
+      </a>
     </div>
   </section>
 </template>
@@ -25,22 +26,19 @@
 <script setup>
 const certificates = [
   {
-    title: 'Web Development Bootcamp',
-    description: 'Belajar frontend & backend web development selama 8 minggu intensif.',
-    image: '',
-    link: 'https://drive.google.com/sertifikat-webdev'
+    title: 'Network Addressing and Basic Troubleshooting Badge',
+    image: '/images/cert1.png',
+    pdfUrl: '/pdfs/Network_Addressing_and_Basic_Troubleshooting_Badge20230111-30-jinzr6.pdf',
   },
   {
-    title: 'Flutter Mobile App',
-    description: 'Membuat aplikasi mobile menggunakan Flutter dan Firebase.',
-    image: '',
-    link: 'https://drive.google.com/sertifikat-flutter'
+    title: 'Introduction to Cybersecurity Badge',
+    image: '/images/cert2.png',
+    pdfUrl: '/pdfs/Introduction_to_Cybersecurity_Badge20230111-30-1kpv3a0.pdf',
   },
   {
-    title: 'UI/UX Design Fundamentals',
-    description: 'Dasar-dasar desain antarmuka pengguna dan pengalaman pengguna.',
-    image: '',
-    link: 'https://drive.google.com/sertifikat-uiux'
+    title: 'Introduction to Data Science Badge',
+    image: '/images/cert3.png',
+    pdfUrl: '/pdfs/Introduction_to_Data_Science_Badge20230111-32-99upr3.pdf',
   }
 ]
 </script>

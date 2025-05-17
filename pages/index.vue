@@ -51,31 +51,32 @@
         Contact Me
       </NuxtLink>
     </div>
+    
 
     <!-- Projects Cards -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 w-full max-w-6xl mx-auto">
       <!-- Card 1 -->
       <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:bg-blue-800 transition duration-300">
-        <img src="" alt="Project 1" class="w-full h-48 object-cover rounded-lg mb-4">
-        <h3 class="text-2xl font-semibold text-blue-400">Project 1</h3>
-        <p class="text-gray-300 mt-2">Description of the first project goes here. Brief overview of its features.</p>
-        <NuxtLink to="/projects/1" class="text-blue-300 mt-4 inline-block hover:underline">See More</NuxtLink>
+        <img src="/images/ml.png" alt="Project 1" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-2xl font-semibold text-blue-400">Prediksi Penumpang Pesawat</h3>
+        <p class="text-gray-300 mt-2">Proyek pembelajaran mesin untuk memprediksi jumlah penumpang pesawat di beberapa bandara menggunakan data resmi dari BPS (Badan Pusat Statistik) Indonesia. Dibuat dengan Flask untuk aplikasi web dan scikit-learn, XGBoost untuk pelatihan model.</p>
+        <NuxtLink to="/projects" class="text-blue-300 mt-4 inline-block hover:underline">See More</NuxtLink>
       </div>
 
       <!-- Card 2 -->
       <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:bg-blue-800 transition duration-300">
-        <img src="" alt="Project 2" class="w-full h-48 object-cover rounded-lg mb-4">
-        <h3 class="text-2xl font-semibold text-blue-400">Project 2</h3>
-        <p class="text-gray-300 mt-2">Description of the second project goes here. Brief overview of its features.</p>
-        <NuxtLink to="/projects/2" class="text-blue-300 mt-4 inline-block hover:underline">See More</NuxtLink>
+        <img src="/images/yusharik.jpeg" alt="Project 2" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-2xl font-semibold text-blue-400">"YUSHARIK"Aplikasi Donasi Masjid</h3>
+        <p class="text-gray-300 mt-2">Proyek pembelajaran untuk donasi ke masjid sekitar kota Padang, Dibuat menggunakan vue.js dan dengan backend json.</p>
+        <NuxtLink to="/projects" class="text-blue-300 mt-4 inline-block hover:underline">See More</NuxtLink>
       </div>
 
       <!-- Card 3 -->
       <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:bg-blue-800 transition duration-300">
-        <img src="" alt="Project 3" class="w-full h-48 object-cover rounded-lg mb-4">
-        <h3 class="text-2xl font-semibold text-blue-400">Project 3</h3>
-        <p class="text-gray-300 mt-2">Description of the third project goes here. Brief overview of its features.</p>
-        <NuxtLink to="/projects/3" class="text-blue-300 mt-4 inline-block hover:underline">See More</NuxtLink>
+        <img src="/images/Figma Gojek.png" alt="Project 3" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-2xl font-semibold text-blue-400">Re-Design Gojek</h3>
+        <p class="text-gray-300 mt-2">Ujian pembelajaran mendesain ulang aplikasi Gojek. Design UI/UX menggunakan Figma.</p>
+        <NuxtLink to="/projects" class="text-blue-300 mt-4 inline-block hover:underline">See More</NuxtLink>
       </div>
     </div>
   </section>

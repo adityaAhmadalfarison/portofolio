@@ -52,6 +52,10 @@
               <li>UI/UX Design (Figma, Illustrator)</li>
             </ul>
           </div>
+          <div>
+            <h3 class="text-xl font-semibold text-blue-400">Zodiak</h3>
+            <p class="text-gray-300">Gemini hehe.</p>
+          </div>
         </div>
       </div>
     </div>
