@@ -90,7 +90,7 @@ export default {
   },
   methods: {
     async submitForm() {
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzmaMxRwBfGxX_XpynZJD1Q6wVIC_bWFQw-9Dwlgs_pGyLw_5olH63JKCfBzTkzmNKB/exec'; // Ganti dengan URL Web Apps Script kamu
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyXkHBh2wQUGynJFHf8dv0ncauURuwf53t9nNE_Id7v8q5KFCY2LjnMR6UqBGebet94/exec'; // Ganti dengan URL Web Apps Script kamu
       const formData = new FormData();
       formData.append('name', this.form.name);
       formData.append('email', this.form.email);
