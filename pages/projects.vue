@@ -54,7 +54,7 @@ const projects = [
     description:
       'Proyek pembelajaran mesin untuk memprediksi jumlah penumpang pesawat di beberapa bandara menggunakan data resmi dari BPS (Badan Pusat Statistik) Indonesia. Dibuat dengan Flask untuk aplikasi web dan scikit-learn, XGBoost untuk pelatihan model.',
     image: '/images/ml.png',
-    github: 'git pull https://github.com/Baghaztra/ProjectAkhirML.git',
+    github: 'https://github.com/Baghaztra/ProjectAkhirML',
   },
   {
     id: 2,
