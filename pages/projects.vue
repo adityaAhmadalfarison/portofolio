@@ -88,5 +88,21 @@ const projects = [
     figma: 'https://www.figma.com/design/GcI4HTHyOF0s5ojcF6RasM/Spadati?node-id=400-2593&t=0em3luKtD1zF3WMi-0',
     demo: 'https://www.figma.com/proto/GcI4HTHyOF0s5ojcF6RasM/Spadati?node-id=1-4&t=0em3luKtD1zF3WMi-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=400%3A2593&show-proto-sidebar=1'
   },
+  {
+    id: 6,
+    title: 'Desain Aplikasi Pahlawan',
+    description: 'Proyek Mengikuti lomba mendesain Aplikasi Biografi Pahlawan.',
+    image: '/images/hnf.png',
+    figma: 'https://www.figma.com/design/ucnt4YP7IiINztgYyHMmi2/ADITYAAHMAD_HNF?node-id=0-1&p=f&t=Vv4d4dgdNQYzUVsM-0',
+    demo: 'https://www.figma.com/proto/ucnt4YP7IiINztgYyHMmi2/ADITYAAHMAD_HNF?node-id=4-14&p=f&t=Vv4d4dgdNQYzUVsM-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2'
+  },
+  {
+    id: 7,
+    title: 'Desain Aplikasi Toko Bangunan',
+    description: 'Proyek mendesain Aplikasi Ecommerce Toko Bangunan.',
+    image: '/images/avifa building.png',
+    figma: 'https://www.figma.com/design/Cf15yZfnAZvjNf65WJIzRh/Avifa-Building?node-id=0-1&p=f&t=1xymt6nahU3IMiSP-0',
+    demo: 'https://www.figma.com/proto/Cf15yZfnAZvjNf65WJIzRh/Avifa-Building?node-id=1859-7897&p=f&t=1xymt6nahU3IMiSP-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1859%3A7897&show-proto-sidebar=1'
+  },
 ]
 </script>
